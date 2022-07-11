@@ -1,0 +1,17 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+spring:
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    open-in-view: false
+
+lang:
+  korean:
+    code: KR
+  english:
+    code: EN
